@@ -12,31 +12,31 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 var sr = ScrollReveal();
 
 sr.reveal('.navbar',{
-    duration: 2000,
+    duration: 1000,
     origin: 'bottom',
     distance: '300px'
 })
 
 sr.reveal('.header-content-left',{
-    duration: 2000,
+    duration: 1000,
     origin: 'top',
     distance: '300px'
 })
 
 sr.reveal('.header-content-right',{
-    duration: 2000,
+    duration: 1000,
     origin: 'right',
     distance: '300px'
 })
 
 sr.reveal('.header-btn',{
-    duration: 2000,
+    duration: 1000,
     origin: 'right',
     distance: '300px'
 })
 
 sr.reveal('.scroll',{
-    duration: 2000,
+    duration: 1000,
     origin: 'top',
     distance: '400px'
 })
