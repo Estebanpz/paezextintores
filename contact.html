@@ -18,6 +18,8 @@
         crossorigin="anonymous" />
     <!--ANIMATE . CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+     <!--IONIC ICONS-->
+     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <!--MAIN CSS-->
     <link rel="stylesheet" href="./CSS/main.css">
 
@@ -27,7 +29,7 @@
     <!--NAVIGATION-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top mb-5">
         <div class="container">
-            <a class="navbar-brand" href="#">Paez Website</a>
+            <a class="navbar-brand" href="./index.html">Paez Website</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -56,16 +58,17 @@
                             <h3>Contactanos</h3>
                         </div>
                         <div class="card-body">
-                            <form action="#!">
-                                <div class="form-group">
-                                    <input type="text" class="form-control text-center" placeholder="Nombre">
+                            <form action="" id="form">
+                    
+                                <div class="form-group" >
+                                    <input type="text"  name="nombre" class="form-control text-center" autofocus placeholder="Nombre" >
                                 </div>
 
-                                <div class="form-group">
-                                    <input type="email" class="form-control text-center" placeholder="Correo">
+                                <div class="form-group" >
+                                    <input type="email" name="email"  class="form-control text-center" placeholder="Correo" >
                                 </div>
-                                <div class="form-group">
-                                    <textarea class="form-control text-center" placeholder="Mensaje" cols="30" rows="10"></textarea>
+                                <div class="form-group" >
+                                    <textarea class="form-control text-center " name="mensaje" placeholder="Mensaje" cols="30" rows="10"></textarea>
                                 </div>
 
                                 <div class="form-group">
@@ -81,52 +84,18 @@
         </div>
     </header>
 
-    <!--SECRION SOCIAL-->
+    <!--SECTION ABOUT-->
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div class="card  animate__animated animate__flipInY ">
-                    <div class="card-header text-center bg-dark text-white mt-2 mb-1">
-                        <ion-icon name="navigate-sharp" size="large"></ion-icon>
-                    </div>
-                    <div class="card-body">
-                        <p class="h4 text-center">Direcciòn:</p>
-                        <p class="text-center">Girardot Cundinamarca, B/ Gaitan Cra16 #22-59</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card mx-3 animate__animated animate__flipInY ">
-                    <div class="card-header bg-dark text-white text-center mt-2 mb-1">
-                        <ion-icon name="share-social-sharp" size="large"></ion-icon>
-                    </div>
-                    <div class="card-body align-items-center animate__animated animate__flipInY">
-                       <div class="d-inline-flex mx-3">
-                        <ion-icon name="logo-whatsapp" class="logo-whatsapp"size="large"></ion-icon>
-                        <p class=" mx-2">(+57)321-386-2654</p>
-                       </div>
-
-                       <div class=" d-inline-flex mx-3">
-                        <ion-icon name="mail-sharp" class="logo-email" size="large"></ion-icon>
-                        <p class=" mx-2">paezextintores@gmail.com</p>
-                       </div>
-
-                       <div class=" d-inline-flex mx-3">
-                        <ion-icon name="logo-facebook" class="logo-facebook" size="large"></ion-icon>
-                        <p class="text-capitalize mx-2 ">jose antonio paez</p>
-                       </div>
-                    </div>
-                </div>
+            <div class="col-md-4">
+                
             </div>
         </div>
     </div>
 
-
-
     <!--FOOTER-->
     <footer class="bg-dark  text-white text-center p-2">
-        <p class="h3">Extintores Paez 2021 <i class="far fa-copyright"></i></p>
+        <p class="h3">Paez Extintores 2021 <i class="far fa-copyright"></i></p>
     </footer>
 
      <!--SCRIPTS DE BOOTSTRAP
@@ -146,11 +115,11 @@
 
     <!--SCROLL REVEAL-->
     <script src="https://unpkg.com/scrollreveal"></script>
-    <!--IONIC ICONS-->
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+   
     <!--MAIN SCRIPTS-->
     <script src="./js/index.js"></script>
-
+    <!--VALIDACION-->
+    <script src="./js/validacion.js"></script>
 </body>
 
 </html>
