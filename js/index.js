@@ -40,3 +40,13 @@ sr.reveal('.scroll', {
     origin: 'top',
     distance: '400px'
 })
+
+//Eventos del Formulario
+
+const Form = document.querySelector('#form');
+
+Form.addEventListener('submit', e => {
+    e.preventDefault();
+
+    alert('Por el momento no tenemos activo este servicio. LLamanos');
+});
